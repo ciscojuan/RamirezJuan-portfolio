@@ -1,0 +1,53 @@
+{
+    "header":{
+        "li-1": "Inicio",
+        "li-2": "Sobre mi",
+        "li-3": "Habilidades",
+        "li-4": "Formación",
+        "li-5": "Proyectos",
+        "li-6": "Contacto"
+    },
+    "home":{
+        "p-1": "Hola, me llamo ",
+        "p-2": "Y soy <span data-type></span></p> ",
+        "btn": "Ver mi CV"
+    },
+    "about":{
+        "title": "SOBRE MI",
+        "p-1" : "Mi nombre nombre es  Juan Pablo Ramirez, y me apasiona la <span> Progrmación Web y la Ciberseguridad.</span>Soy <span>Ingeniero de Sistemas </span> egresado de la Universidad Minuto de Dios.",
+        "p-2": "Me gusta mantenerme actualizado y tomar cursos en línea en mis tiempos libres, tengo experiencia manejando herramientas de <span>Respuesta a incidencias</span> tales como: ",
+        "p-3":"EDR LIMACHARLIE., WAZUH IDS , and Atomic Red Team tool para realizar simulacion de ataques. Tambien tengo nociones de <span>Pentesting y ciberinteligencia</span>, con Mittre ATT&CK y MISP .",
+        "p-4": "He implementado laboratorios en máquinas virtuales utilizando herramientas como <pan>Wazuh, DFIR IRS, Atomic Red Team y MISP</span>. También he simulado ataques utilizando la matriz de MITRE ATT&CK y analizado los registros recopilados por estas plataformas."
+    },
+    "skills":{
+        "title": "HABILIDADES",
+        "card-title-1": "Respuesta a Incidentes",
+        "card-title-2": "Pentesting",
+        "card-title-3": "CiberInteligencia",
+        "card-title-4": "NIST",
+        "card-title-5": "HTML, REACT, ANGULAR, SASS",
+        "card-title-6": "KANBAG",
+        "card-title-7": "BEM",
+        "card-title-8": "BEM"
+    },
+    "training":{
+        "title": "FORMACIÓN",
+        "training-title-1": "Ingenieria de Sistemas",
+        "p-1": "Universidad MINUTO de DIOS",
+        "p-2": "2019",
+        "training-title-2": "Técnologia en Redes de Computadores y Seguridad Informática",
+        "p-3": "Universidad MINUTO de DIOS",
+        "p-4": "2013",
+        "training-title-3": "Desarrollo Web Front End",
+        "p-5": "ORACLE - ALURA LATAM",
+        "p-6": "2023 - Presente",
+        "training-title-4" : "Seguridad Informática",
+        "p-7": "PLATZI",
+        "p-8": "2023 - Presente"
+    },
+    "contact":{
+        "title": "CONTACTO",
+        "p": "Si tiene alguna inquietud, quiere contactar conmigo, porfavor rellene el formularion. Me pondre en contacto con usted lo mas pronto posible."
+    }
+
+}

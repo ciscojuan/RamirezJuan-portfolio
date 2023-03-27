@@ -1,0 +1,53 @@
+{
+    "header":{
+        "li-1": "Home",
+        "li-2": "About",
+        "li-3": "Skill",
+        "li-4": "Training",
+        "li-5": "Projects",
+        "li-6": "Contact"
+    },
+    "home":{
+        "p-1": "Hi, I am ",
+        "p-2": "And I'm a <span data-type></span></p>",
+        "btn": "Donload CV"
+    },
+    "about":{
+        "title": "ABOUT ME",
+        "p-1" : "I am Juan Pablo Ramirez, a <span>System Engeneer</span> whith a focus on <span>Cybersecurity.</span>",
+        "p-2": "I am passionate about staying up to date with the latest technologies and have extensive experience using Open Source <span>Incident Response</span> Toolkits such us:",
+        "p-3": "EDR LIMACHARLIE., WAZUH IDS , and Atomic Red Team tool for Adversay Simulation. I also have proficiency in Intelligence tools like Mittre ATT&CK and MISP.",
+        "p-4": "Additionally, I possess knowledge in Penetration Testing usingvarious Penetration tools and OSINT gathering Techniques."
+    },
+    "skills":{
+        "title": "SKILLS",
+        "card-title-1": "INCIDENT RESPONSE",
+        "card-title-2": "PENTESTING",
+        "card-title-3": "INTELLIGENCE",
+        "card-title-4": "NIST",
+        "card-title-5": "HTML, REACT, ANGULAR, SASS",
+        "card-title-6": "KANBAG",
+        "card-title-7": "BEM",
+        "card-title-8": "BEM"
+    },
+    "training":{
+        "title": "TRAINING",
+        "training-title-1": "Systems Engieenering",
+        "p-1": "UNIMINUTO UNIVERSITY",
+        "p-2": "2019",
+        "training-title-2": "COMPUTER NETWORK and INFORMATIC SECURITY",
+        "p-3": "UNIMINUTO UNIVERSITY",
+        "p-4": "2013",
+        "training-title-3": "FRONT END WEB DEVELOPMENT",
+        "p-5": "ORACLE - ALURA LATAM",
+        "p-6": "2023 - Present",
+        "training-title-4" : "INFORMTIC SECURITY",
+        "p-7": "PLATZI",
+        "p-8": "2023 - Present"
+    },
+    "contact":{
+        "title": "GET IN TOUCH",
+        "p": "Please fill these form to get in touch. I'll will give you a quick response!"
+    }
+
+}

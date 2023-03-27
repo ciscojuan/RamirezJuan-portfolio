@@ -1,0 +1,61 @@
+@use "header/header";
+@use "home/home";
+@use "about/about.scss";
+@use "skills/skills";
+@use "training/training";
+@use "projects/projects.scss";
+@use "contact/contact";
+
+* {
+  scroll-behavior: smooth;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  main{
+    background-color: #1f242d; 
+  }
+
+  color: #fff;
+  body::-webkit-scrollbar {
+    width: 13px; /* width of the entire scrollbar */
+  }
+  body::-webkit-scrollbar-track {
+    background: #1f242d; /* color of the tracking area */
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #fff; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    /*     border: 3px solid #fff; /* creates padding around scroll thumb */
+    /*     box-shadow: 0 0 20px #fff; */
+  }
+  
+  .h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+  }
+  .h3 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .btn {
+    width: 150px;
+    height: 80px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+  }
+  .btn:hover {
+    background: transparent;
+    color: #fff;
+    box-shadow: 0 0 20px #fff;
+  }
+}

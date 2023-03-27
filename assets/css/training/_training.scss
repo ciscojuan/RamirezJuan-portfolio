@@ -1,0 +1,123 @@
+.training {
+  background-color: #1f242d;
+  width: 100%;
+  height: 100%;
+  padding: 5rem 0;
+
+  &__container {
+    width: 80%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    justify-content: center;
+    justify-items: center;
+    &--title {
+      width: 100%;
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .separator {
+        flex: 1;
+        border-top: 2px solid #fff;
+      }
+    }
+    &--content {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+
+      .training__card {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: baseline;
+        border: 2px solid #fff;
+        padding: 15px;
+        margin: 0 auto;
+        opacity: 0;
+        animation: slideLeft 1s ease forwards;
+        animation-delay: calc(0.5s * var(--i));
+        .training--image {
+          width: 300px;
+          height: 300px;
+          img {
+            width: 100%;
+          }
+        }
+        .training--title {
+          width: 100%;
+          height: 50px;
+        }
+        .training--desc {
+          width: 100%;
+          height: 50px;
+        }
+      }
+    }
+  }
+}
+@keyframes slideTop {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .training {
+    &__container {
+      &--content {
+        .training__card{
+          width: 80%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .training {
+    &__container {
+      &--content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        .training__card{
+          width: auto;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .training {
+    &__container {
+      &--content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+}
+
+@media screen and (min-width:481px) and (max-width: 540px){
+    .training{
+        padding: 0;
+      &__container{
+        &--content{
+          display: grid;
+          grid-template-columns: repeat(1, 1fr)
+        }
+      }
+    }
+}

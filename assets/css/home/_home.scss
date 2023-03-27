@@ -1,0 +1,88 @@
+  .home {
+    z-index: 999;
+    width: 100%;
+    height: calc(100vh + 65px);
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url('/assets/images/main/wallpaper.jpg') no-repeat center / cover;
+    #particles-js{
+      .home__container {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        &--content {
+          position: absolute;
+          top: 50%;
+          left:50%;
+          transform: translate(-50%, -50%);
+
+          &--title {
+            width: 80%;
+            height: 600px;
+          }
+          .h3 span {
+            color: #fff;
+            font-weight: 700;
+          }
+          .social-media {
+            width: 100%;
+            height: 100px;
+            text-align: center;
+            .link {
+              font-size: 20px;
+              width: 40px;
+              height: 40px;
+              display: inline-flex;
+              justify-content: center;
+              align-items: center;
+              background: transparent;
+              border: 2px solid #fff;
+              border-radius: 50%;
+              color: #fff;
+              text-decoration: none;
+              margin: 30px 15px 30px 0;
+              transition: 0.5s ease;
+              opacity: 0;
+              animation: slideLeft 1s ease forwards;
+              animation-delay: calc(0.2s * var(--i));
+            }
+            .link:hover {
+              color: #1f242d;
+              box-shadow: 0 0 20px #fff;
+            }
+          }
+        }
+        
+        }
+      }
+    }
+  /* Keyframes animation */
+
+  @keyframes slideLeft {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideTop {
+    0% {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @media screen and (max-width: 1800px){
+    .home{
+      display: none;
+    }
+  }

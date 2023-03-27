@@ -1,0 +1,54 @@
+.about{
+    width: 100%;
+    height: 65rem;
+    &__container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        &--title{
+            width: 80%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 2rem auto;
+
+            .separator{
+                flex: 1;
+                border-top: 2px solid #ccc;;
+            }
+        }
+        &--content{
+            width: 70%;
+            height: 100%;
+            span, abbr{
+                font-weight: bolder;
+            }
+            p{
+                font-size: 1.5rem;
+                line-height: 50px;
+                opacity: 0;
+                animation: slideLeft 1s ease-in-out forwards;
+                animation-delay: calc(0.2s * var(--i));
+                text-transform: capitalize;
+            }
+           
+
+        }
+    }
+}
+
+@keyframes slideLeft{
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
