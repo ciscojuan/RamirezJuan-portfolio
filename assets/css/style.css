@@ -16,7 +16,7 @@
 .header .logo {
   width: 100px;
   height: 30px;
-  background: transparent url("../../images/main/cod.ico") no-repeat center left;
+  background: transparent url("../images/main/cod.ico") no-repeat center left;
   background-size: 100%;
   opacity: 0;
   animation: slideRight 1s ease forwards;
@@ -116,7 +116,7 @@
   z-index: 999;
   width: 100%;
   height: calc(100vh + 65px);
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/main/wallpaper.jpg") no-repeat center/cover;
+  background: url("../images/main/wallpaper.jpg") no-repeat center/cover;
 }
 .home #particles-js .home__container {
   width: 100%;
@@ -752,7 +752,7 @@
 .footer__container .brand {
   width: 100px;
   height: 30px;
-  background: url("/assets/images/main/cod.ico") no-repeat center left;
+  background: url("../images/main/cod.ico") no-repeat center left;
   background-size: 100%;
 }
 
