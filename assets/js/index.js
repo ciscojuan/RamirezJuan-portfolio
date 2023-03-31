@@ -18,9 +18,9 @@ language.addEventListener('click', (e) =>{
 
 
 var typed = new Typed('[data-type]',{
-    strings: [' SOC Security Analyst & ', ' Front End Developer &'],
-    typeSpeed: 100,
-    backSpeed: 100,
+    strings: [' Systems Engineer ', ' Front End Developer &', 'Cybersecurity Analyst'],
+    typeSpeed: 50,
+    backSpeed: 50,
     backDelay: 1000,
     loop: true
 })

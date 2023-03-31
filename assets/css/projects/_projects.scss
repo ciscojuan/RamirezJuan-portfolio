@@ -2,18 +2,18 @@
   background-color: #1f242d;
   width: 100%;
   height: 100%;
-  padding: 5rem 0;
+
   &__container {
     width: 80%;
     height: 100%;
     display: grid;
     grid-template-columns: 1fr;
+    justify-items: center;
     margin: 0 auto;
     &--title {
       width: 100%;
       height: 150px;
       display: flex;
-      justify-content: center;
       align-items: center;
       margin: 0 auto;
       .separator {
@@ -22,26 +22,25 @@
       }
     }
     &--content {
-      width: 100%;
+      width: 80%;
       height: 100%;
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: 20px;
-      justify-content: center;
       justify-items: center;
       .project__card {
-        width: 80%;
+        width: 100%;
         height: 100%;
         display: flex;
         flex-direction: column;
         text-align: justify;
         border: 2px solid;
         border-radius: 10px;
-        box-shadow: 0 0 20px #fff;
         padding: 10px;
-        opacity: 0;
+/*         opacity: 0;
         animation: slideTop 1s ease forwards;
-        animation-delay: calc(0.3s * var(--i));
+        animation-delay: calc(0.3s * var(--i)); */
+
         .project__card--image {
           width: 100%;
           height: 150px;
@@ -77,6 +76,10 @@
           }
         }
       }
+      .project__card:hover{
+        box-shadow: 0 0 20px #fff;
+        border: 4px solid;
+      }
     }
   }
 }
@@ -102,16 +105,35 @@
     }
   }
 }
+
 @media screen and (max-width: 1024px) {
   .projects {
     &__container {
       &--content {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        .project__card{
+          width: 100%;
+        }
       }
     }
   }
 }
+
+@media screen and (max-width: 900px) {
+  .projects {
+    &__container {
+      &--content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        .project__card{
+          width: 300px;
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 768px) {
   .projects {
     &__container {

@@ -5,6 +5,7 @@
 @use "training/training";
 @use "projects/projects.scss";
 @use "contact/contact";
+@use "footer/footer.scss";
 
 * {
   scroll-behavior: smooth;
@@ -22,7 +23,7 @@
     width: 13px; /* width of the entire scrollbar */
   }
   body::-webkit-scrollbar-track {
-    background: #1f242d; /* color of the tracking area */
+    background: #000; /* color of the tracking area */
   }
   body::-webkit-scrollbar-thumb {
     background-color: #fff; /* color of the scroll thumb */
@@ -49,13 +50,35 @@
     padding: 15px;
     text-decoration: none;
     color: #fff;
-    opacity: 0;
+/*     opacity: 0;
     animation: slideTop 1s ease forwards;
-    animation-delay: 2s;
+    animation-delay: 2s; */
   }
   .btn:hover {
     background: transparent;
     color: #fff;
     box-shadow: 0 0 20px #fff;
+  }
+}
+
+@media screen and (max-width: 1600px){
+  *{
+    h1{
+      font-size: 2.5rem;
+    }
+    p{
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 480px){
+  *{
+    h1{
+      font-size: 2.5rem;
+    }
+    p{
+      font-size: 1rem;
+    }
   }
 }

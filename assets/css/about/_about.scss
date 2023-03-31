@@ -29,11 +29,11 @@
                 font-weight: bolder;
             }
             p{
-                font-size: 1.5rem;
                 line-height: 50px;
+                font-size: 1.5rem;
                 opacity: 0;
-                animation: slideLeft 1s ease-in-out forwards;
-                animation-delay: calc(0.2s * var(--i));
+/*                 animation: slideLeft 1s ease-in-out forwards;
+                animation-delay: calc(0.2s * var(--i)); */
                 text-transform: capitalize;
             }
            
@@ -52,3 +52,10 @@
         opacity: 1;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .about {
+      height: 60rem;
+    }
+  }
+  
