@@ -48,7 +48,7 @@
         animation-delay: calc(0.5s * var(--i));
         .training--image {
           width: 300px;
-          height: 300px;
+          height: 110px;
           img {
             width: 100%;
           }
@@ -137,13 +137,18 @@
   }
 }
 
-@media screen and (max-width:540px){
+@media screen and (max-width:480px){
     .training{
         padding: 0;
+        height: 80rem;
       &__container{
+        height: 100%;
         &--content{
           display: grid;
           grid-template-columns: 1fr;
+          .training__card{
+            height: 100%;
+          }
         }
       }
     }

@@ -41,12 +41,10 @@
         animation: slideTop 1s ease forwards;
         animation-delay: calc(0.3s * var(--i)); */
 
-        .project__card--image {
+        .project__card--image, .project__card--image img {
           width: 100%;
           height: 150px;
-          img {
-            width: 100%;
-          }
+         
         }
         .project__card--title {
           width: 100%;

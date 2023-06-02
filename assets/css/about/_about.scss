@@ -55,7 +55,13 @@
 
 @media screen and (max-width: 480px) {
     .about {
-      height: 60rem;
+        &__container{
+            &--content{
+                p{
+                    font-size: 1rem;
+                }
+            }
+        }
     }
   }
   
