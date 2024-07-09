@@ -2,7 +2,7 @@ const languages = document.querySelectorAll('[data-language]')
 const textsToChange = document.querySelectorAll("[data-section]");
 
 const changeLanguage = async (language) => {
-  const requestJson = await fetch(`/assets/language/${language}.json`);
+  const requestJson = await fetch(`https://github.com/ciscojuan/RamirezJuan-portfolio/blob/main/assets/language/${language}.json`);
   const texts = await requestJson.json();
 
   for(const text of textsToChange){
