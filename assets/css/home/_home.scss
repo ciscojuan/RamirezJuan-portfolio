@@ -27,7 +27,7 @@
           }
           .social-media {
             width: 100%;
-            height: 100px;
+            height: 100%;
             text-align: center;
             .link {
               font-size: 20px;
@@ -54,6 +54,14 @@
           }
         }
         
+        .curriculum-vitae {
+          width: 100%;
+          padding: 10% 0px;
+          height: 100%;
+          text-align: center;
+          
+        }
+
         }
       }
     }

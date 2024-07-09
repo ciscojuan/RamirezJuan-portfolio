@@ -1,5 +1,5 @@
 {
-    "header":{
+    "header": {
         "li-1": "Inicio",
         "li-2": "Sobre mi",
         "li-3": "Habilidades",
@@ -7,19 +7,19 @@
         "li-5": "Proyectos",
         "li-6": "Contacto"
     },
-    "home":{
+    "home": {
         "p-1": "Hola, me llamo ",
         "p-2": "Y soy <span data-type></span></p> ",
         "btn": "Ver mi CV"
     },
-    "about":{
+    "about": {
         "title": "SOBRE MI",
-        "p-1" : "Mi nombre nombre es  Juan Pablo Ramirez, y me apasiona la <span> Progrmación Web y la Ciberseguridad.</span>Soy <span>Ingeniero de Sistemas </span> egresado de la Universidad Minuto de Dios.",
-        "p-2": "Me gusta mantenerme actualizado y tomar cursos en línea en mis tiempos libres, tengo experiencia manejando herramientas de <span>Respuesta a incidencias</span> tales como: ",
-        "p-3":"EDR LIMACHARLIE., WAZUH IDS , and Atomic Red Team tool para realizar simulacion de ataques. Tambien tengo nociones de <span>Pentesting y ciberinteligencia</span>, con Mittre ATT&CK y MISP .",
-        "p-4": "He implementado laboratorios en máquinas virtuales utilizando herramientas como <pan>Wazuh, DFIR IRS, Atomic Red Team y MISP</span>. También he simulado ataques utilizando la matriz de MITRE ATT&CK y analizado los registros recopilados por estas plataformas."
+        "p-1": "Mi nombre nombre es Juan Pablo Ramirez, me apasiona la <span>Programación Web con Java y JavaScript</span>.",
+        "p-2": "<span>Ingeniero de Sistemas</span> egresado de la Universidad Minuto de Dios, me dedico con pasión al <span>desarrollo web full stack</span> utilizando Java y JavaScript. Constantemente amplio mis conocimientos a través de cursos de programación en mi tiempo libre. <span>Mi objetivo</span> es obtener experiencia y oportunidades en el mercado laboral como desarrollador web full stack.",
+        
+        "p-3":"Poseo sólidos conocimientos en <span>seguridad de la información y ciberseguridad</span>. Manejo herramientas open source de <span>respuesta a incidencias</span> como EDR LIMACHARLIE, WAZUH IDS y Atomic Red Team tool para realizar <span>simulacion de adversarios</span>. Además, tengo nociones de <span>pentesting y ciberinteligencia</span> con Mitre ATT&CK y MISP. He implementado laboratorios en máquinas virtuales utilizando herramientas como Wazuh, DFIR IRS, Atomic Red Team y MISP, y he simulado ataques utilizando la matriz MITRE ATT&CK, analizando los registros recopilados por estas plataformas."
     },
-    "skills":{
+    "skills": {
         "title": "HABILIDADES",
         "card-title-1": "Respuesta a Incidentes",
         "card-title-2": "Pentesting",
@@ -30,7 +30,7 @@
         "card-title-7": "BEM",
         "card-title-8": "BEM"
     },
-    "training":{
+    "training": {
         "title": "FORMACIÓN",
         "training-title-1": "Ingenieria de Sistemas",
         "p-1": "Universidad MINUTO de DIOS",
@@ -41,13 +41,12 @@
         "training-title-3": "Desarrollo Web Front End",
         "p-5": "ORACLE - ALURA LATAM",
         "p-6": "2023 - Presente",
-        "training-title-4" : "Seguridad Informática",
+        "training-title-4": "Seguridad Informática",
         "p-7": "PLATZI",
         "p-8": "2023 - Presente"
     },
-    "contact":{
+    "contact": {
         "title": "CONTACTO",
         "p": "Si tiene alguna inquietud, quiere contactar conmigo, porfavor rellene el formularion. Me pondre en contacto con usted lo mas pronto posible."
     }
-
 }

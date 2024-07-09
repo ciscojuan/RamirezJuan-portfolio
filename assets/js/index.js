@@ -1,32 +1,36 @@
-const language = document.querySelector('.nav__flags')
+const languages = document.querySelectorAll('[data-language]')
 const textsToChange = document.querySelectorAll("[data-section]");
 
 const changeLanguage = async (language) => {
   const requestJson = await fetch(`/assets/language/${language}.json`);
   const texts = await requestJson.json();
 
-  for(const textToChange of textsToChange){
-    const section = textToChange.dataset.section
-    const value = textToChange.dataset.value
+  for(const text of textsToChange){
+    const section = text.dataset.section
+    const value = text.dataset.value
 
-    textToChange.innerHTML = texts[section][value]
+    text.innerHTML = texts[section][value]
   }
 };
-language.addEventListener('click', (e) =>{
-  changeLanguage(e.target.dataset.language)
-})
+
+languages.forEach(language => {
+  language.addEventListener('click', (e) => {
+    changeLanguage(e.target.dataset.language);
+    console.log(`${e.target.dataset.language}`);
+  });
+});
 
 
 var typed = new Typed('[data-type]',{
     strings: [' Systems Engineer ', ' Front End Developer &', 'Cybersecurity Analyst'],
-    typeSpeed: 50,
+    typeSpeed: 70,
     backSpeed: 50,
     backDelay: 1000,
     loop: true
 })
 
 window.addEventListener('scroll', function() {
-    var nav = document.querySelector('.header');
+    var nav = document.querySelector('header');
     if (window.scrollY > 0) {
       nav.classList.add('blur');
     } else {

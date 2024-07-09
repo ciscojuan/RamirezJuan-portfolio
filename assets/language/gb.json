@@ -10,7 +10,7 @@
     "home":{
         "p-1": "Hi, I am ",
         "p-2": "And I'm a <span data-type></span></p>",
-        "btn": "Donload CV"
+        "btn": "Download CV"
     },
     "about":{
         "title": "ABOUT ME",

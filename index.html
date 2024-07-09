@@ -1,860 +1,547 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Ingeniero de Sistemas, me dedico a hacer paginas web con tecnologias JavaScript con Angular y React, me gusta la ciberseguridad y el desarrollo web."
-    />
-    <meta name="copyright" content="COD_" />
-    <meta
-      name="author"
-      content="Juan Pablo Ramirez, juan.ramirez.1519@gmail.com"
-    />
-    <meta
-      name="keywords"
-      content="Juan Pablo Ramirez, COD_, cod, juan.ramirez.1519@gmail.com, analista de seguridad, soc analyst"
-    />
-    <link
-      rel="shortcut icon"
-      href=".assets/images/main/logo.ico"
-      type="image/x-icon"
-    />
-    <title>Juan Ramirez | Soc Security Analyst</title>
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <!-- animations css -->
-  </head>
-  <body>
-    <header class="header">
-      <div class="logo"></div>
 
-      <nav class="nav">
-        <ul class="nav__menu">
-          <li class="nav--link">
-            <a
-              href="#home"
-              style="--i: 1"
-              class="link active"
-              data-section="header"
-              data-value="li-1"
-              >Home</a
-            >
-          </li>
-          <li class="nav--link">
-            <a
-              href="#about"
-              style="--i: 2"
-              class="link"
-              data-section="header"
-              data-value="li-2"
-              >About</a
-            >
-          </li>
-          <li class="nav--link">
-            <a
-              href="#skills"
-              style="--i: 3"
-              class="link"
-              data-section="header"
-              data-value="li-3"
-              >Skills</a
-            >
-          </li>
-          <li class="nav--link">
-            <a
-              href="#training"
-              style="--i: 4"
-              class="link"
-              data-section="header"
-              data-value="li-4"
-              >Training</a
-            >
-          </li>
-          <li class="nav--link">
-            <a
-              href="#projects"
-              style="--i: 5"
-              class="link"
-              data-section="header"
-              data-value="li-5"
-              >Projects</a
-            >
-          </li>
-          <li class="nav--link">
-            <a
-              href="#contact"
-              style="--i: 6"
-              class="link"
-              data-section="header"
-              data-value="li-6"
-              >Contact</a
-            >
-          </li>
-        </ul>
-        <div class="nav__flags">
-          <div class="nav__flags--item">
-            <img
-              src="assets/images/main/icon-es.png"
-              alt="Espanish"
-              data-language="es"
-            />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Ingeniero de Sistemas, me dedico a hacer paginas web con tecnologias JavaScript con Angular y React, me gusta la ciberseguridad y el desarrollo web." />
+  <meta name="copyright" content="COD_" />
+  <meta name="author" content="Juan Pablo Ramirez, juan.ramirez.1519@gmail.com" />
+  <meta name="keywords"
+    content="Juan Pablo Ramirez, COD_, cod, juan.ramirez.1519@gmail.com, analista de seguridad, soc analyst" />
+  <link rel="shortcut icon" href=".assets/images/main/logo.ico" type="image/x-icon" />
+  <title>Juan Ramirez | Soc Security Analyst</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;1,700&display=swap"
+    rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!-- animations css -->
+</head>
+
+<body>
+  <header>
+    <div class="logo"></div>
+
+    <nav class="nav">
+      <ul class="nav__menu">
+        <li class="nav--link">
+          <a href="#home" style="--i: 1" class="link active" data-section="header" data-value="li-1">Home</a>
+        </li>
+        <li class="nav--link">
+          <az href="#about" style="--i: 2" class="link" data-section="header" data-value="li-2">About</a>
+        </li>
+        <li class="nav--link">
+          <a href="#skills" style="--i: 3" class="link" data-section="header" data-value="li-3">Skills</a>
+        </li>
+        <li class="nav--link">
+          <a href="#training" style="--i: 4" class="link" data-section="header" data-value="li-4">Training</a>
+        </li>
+        <li class="nav--link">
+          <a href="#projects" style="--i: 5" class="link" data-section="header" data-value="li-5">Projects</a>
+        </li>
+        <li class="nav--link">
+          <a href="#contact" style="--i: 6" class="link" data-section="header" data-value="li-6">Contact</a>
+        </li>
+      </ul>
+      <div class="nav__flags">
+        <div class="nav__flags--item">
+          <img src="assets/images/main/icon-es.png" alt="Espanish" data-language="es" />
+        </div>
+        <div class="nav__flags--item">
+          <img src="assets/images/main/icon-en.png" alt="English" data-language="gb" />
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="home" class="home">
+    <div id="particles-js">
+      <div class="home__container">
+        <div class="home__container--content">
+          <div class="home__container--title">
+            <p class="h3" data-section="home" data-value="p-1">HI, I am</p>
+            <p class="h1">JUAN PABLO RAMIREZ</p>
+            <p class="h3" data-section="home" data-value="p-2">and I'm a</p>
+            <p class="h3"><span data-type></span></p>
           </div>
-          <div class="nav__flags--item">
-            <img
-              src="assets/images/main/icon-en.png"
-              alt="English"
-              data-language="gb"
-            />
+          <div class="social-media">
+            <a href="https://www.linkedin.com/feed/" target="_blank" style="--i: 7" class="link"><i
+                class="bx bxl-linkedin"></i></a>
+            <a href="mailto:juan.ramirez.1519@gmail.com" target="_blank" style="--i: 8" class="link"><i
+                class="bx bxl-gmail"></i></a>
+            <a href="https://github.com/ciscojuan" target="_blank" style="--i: 9" class="link"><i
+                class="bx bxl-github"></i></a>
+          </div>
+          <div class="curriculum-vitae">
+            <a href="https://drive.google.com/file/d/1qjujQOYwAoNfJmn61ql0d8OzD6QlMruZ/view?usp=share_link"
+                  target="_blank" class="btn" data-section="home" data-value="btn">Download CV</a>
           </div>
         </div>
-      </nav>
-    </header>
+      </div>
+    </div>
+  </section>
 
-    <section id="home" class="home">
-      <div id="particles-js">
-        <div class="home__container">
-          <div class="home__container--content">
-            <div class="home__container--title">
-              <p class="h3" data-section="home" data-value="p-1">HI, I am</p>
-              <p class="h1">JUAN PABLO RAMIREZ</p>
-              <p class="h3" data-section="home" data-value="p-2">and I'm a</p>
-              <p class="h3"><span data-type></span></p>
+  <main>
+    <section id="about" class="about">
+      <div class="about__container">
+        <div class="about__container--title">
+          <span class="separator"></span>
+          <h2 class="h1">ABOUT ME</h2>
+          <span class="separator"></span>
+        </div>
+        <div class="about__container--content">
+          <p style="--i: 1" data-section="about" data-value="p-1" data-aos="fade-right">
+            I am Juan Pablo Ramirez, a <span>System Engeneer</span> whith a
+            focus on <span>Cybersecurity.</span>
+          </p>
+          <p style="--i: 2" data-section="about" data-value="p-2" data-aos="fade-left">
+            I am passionate about staying up to date with the latest
+            technologies and have extensive experience using Open Source<span>
+              Incident Handling</span>
+            Tools such us:
+          </p>
+          <p style="--i: 3" data-section="about" data-value="p-3" data-aos="fade-right">
+            EDR LIMACHARLIE., WAZUH IDS, and Atomic Red Team tool for Adversay
+            Simulation. I also have proficiency in Intelligence tools like
+            Mittre ATT&CK and MISP.
+          </p>
+          
+        </div>
+        <div class="about__container--img">
+          <img src="assets/images/main/fullStackToon/fullstackToon.png" alt="FullStack Developer">
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="skills__container">
+        <div class="skills__container--title">
+          <span class="separator"></span>
+          <h2 class="h1" data-section="skills" data-value="title">SKILLS</h2>
+          <span class="separator"></span>
+        </div>
+        <div class="skills__container--content">
+          <div class="skills__card" style="--i: 1" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+            <div class="skills__card--img">
+              <img src="assets/images/skills/white-IR.svg" alt="Incident Handling LifeCycle" />
             </div>
-            <div class="social-media">
-              <a
-                href="https://www.linkedin.com/feed/"
-                target="_blank"
-                style="--i: 7"
-                class="link"
-                ><i class="bx bxl-linkedin"></i
-              ></a>
-              <a
-                href="mailto:juan.ramirez.1519@gmail.com"
-                target="_blank"
-                style="--i: 8"
-                class="link"
-                ><i class="bx bxl-gmail"></i
-              ></a>
-              <a
-                href="https://github.com/ciscojuan"
-                target="_blank"
-                style="--i: 9"
-                class="link"
-                ><i class="bx bxl-github"></i
-              ></a>
+            <div class="skills__card--title" data-section="skills" data-value="card-title-1">
+              Incident Handling
             </div>
-            <a
-              href="https://drive.google.com/file/d/1qjujQOYwAoNfJmn61ql0d8OzD6QlMruZ/view?usp=share_link"
-              target="_blank"
-              class="btn"
-              data-section="home"
-              data-value="btn"
-              >Download CV</a
-            >
+          </div>
+
+          <div class="skills__card" style="--i: 2" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+            <div class="skills__card--img">
+              <img src="assets/images/skills/white-pentesting.svg" alt="Pentesting" />
+            </div>
+            <div class="skills__card--title" data-section="skills" data-value="card-title-2">
+              PENTESTING
+            </div>
+          </div>
+
+          <div class="skills__card" style="--i: 3" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+            <div class="skills__card--img">
+              <img src="assets/images/skills/white-intelligence.svg" alt="Intelligence" />
+            </div>
+            <div class="skills__card--title" data-section="skills" data-value="card-title-3">
+              INTELLIGENCE
+            </div>
+          </div>
+
+          <div class="skills__card" style="--i: 4" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+            <div class="skills__card--img">
+              <img src="assets/images/skills/white-nist.svg" alt="NIST" />
+            </div>
+            <div class="skills__card--title" data-section="skills" data-value="card-title-4">
+              NIST
+            </div>
+          </div>
+
+          <div class="skills__card" style="--i: 5" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+            <div class="skills__card--img">
+              <img src="assets/images/skills/white-angular.svg" alt="Angular" />
+            </div>
+            <div class="skills__card--title" data-section="skills" data-value="card-title-5">
+              Agular
+            </div>
+          </div>
+
+          <div class="skills__card" style="--i: 6" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+            <div class="skills__card--img">
+              <img src="assets/images/skills/white-react.svg" alt="React" />
+            </div>
+            <div class="skills__card--title" data-section="skills" data-value="card-title-6">
+              React
+            </div>
+          </div>
+
+          <div class="skills__card" style="--i: 7" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+            <div class="skills__card--img">
+              <img src="assets/images/skills/white-sass.svg" alt="Sass" />
+            </div>
+            <div class="skills__card--title" data-section="skills" data-value="card-title-7">
+              Sass
+            </div>
+          </div>
+
+          <div class="skills__card" style="--i: 8" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+            <div class="skills__card--img">
+              <img src="assets/images/skills/white-git.svg" alt="Github" />
+            </div>
+            <div class="skills__card--title" data-section="skills" data-value="card-title-8">
+              NIST
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <main>
-      <section id="about" class="about">
-        <div class="about__container">
-          <div class="about__container--title">
-            <span class="separator"></span>
-            <h2 class="h1">ABOUT ME</h2>
-            <span class="separator"></span>
-          </div>
-          <div class="about__container--content">
-            <p
-              style="--i: 1"
-              data-section="about"
-              data-value="p-1"
-              data-aos="fade-right"
-            >
-              I am Juan Pablo Ramirez, a <span>System Engeneer</span> whith a
-              focus on <span>Cybersecurity.</span>
-            </p>
-            <p
-              style="--i: 2"
-              data-section="about"
-              data-value="p-2"
-              data-aos="fade-left"
-            >
-              I am passionate about staying up to date with the latest
-              technologies and have extensive experience using Open Source<span>
-                Incident Handling</span
-              >
-              Tools such us:
-            </p>
-            <p
-              style="--i: 3"
-              data-section="about"
-              data-value="p-3"
-              data-aos="fade-right"
-            >
-              EDR LIMACHARLIE., WAZUH IDS, and Atomic Red Team tool for Adversay
-              Simulation. I also have proficiency in Intelligence tools like
-              Mittre ATT&CK and MISP.
-            </p>
-            <p
-              style="--i: 4"
-              data-section="about"
-              data-value="p-4"
-              data-aos="fade-left"
-            >
-              Additionally, I possess knowledge in Penetration Testing using
-              various Penetration tools and OSINT gathering Techniques.
-            </p>
-          </div>
+    <section id="projects" class="projects">
+      <div class="projects__container">
+        <div class="projects__container--title">
+          <span class="separator"></span>
+          <h2 class="h1">MY PROJECTS</h2>
+          <span class="separator"></span>
         </div>
-      </section>
 
-      <section id="skills" class="skills">
-        <div class="skills__container">
-          <div class="skills__container--title">
-            <span class="separator"></span>
-            <h2 class="h1" data-section="skills" data-value="title">SKILLS</h2>
-            <span class="separator"></span>
+        <div class="projects__container--content">
+          <div class="project__card" style="--i: 1" data-aos="zoom-in">
+            <div class="project__card--image">
+              <img src="assets/images/projects/aecommerce.PNG" alt="Alura Restaurant" />
+            </div>
+            <div class="project__card--title">
+              <h4>AluraCommerce</h4>
+            </div>
+            <div class="project__card--description">
+              <p>
+                E-comerce is an electronic shop computer's assets. This
+                project was made in JavaScript, use Sass as technology.
+              </p>
+            </div>
+            <div class="project__card--buttons">
+              <a href="https://juan-e-commerce.vercel.app/index.html" target="_blank">
+                <button class="btn btn-project">
+                  <i class="bx bx-play-circle"></i></button></a>
+
+              <a href="https://github.com/ciscojuan/e-commerce" target="
+                ">
+                <button class="btn btn-project">
+                  <i class="bx bxl-github"></i></button></a>
+            </div>
           </div>
-          <div class="skills__container--content">
-            <div
-              class="skills__card"
-              style="--i: 1"
-              data-aos="flip-left"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000"
-            >
-              <div class="skills__card--img">
-                <img
-                  src="assets/images/skills/white-IR.svg"
-                  alt="Incident Handling LifeCycle"
-                />
-              </div>
-              <div
-                class="skills__card--title"
-                data-section="skills"
-                data-value="card-title-1"
-              >
-                Incident Handling
-              </div>
-            </div>
 
-            <div
-              class="skills__card"
-              style="--i: 2"
-              data-aos="flip-left"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000"
-            >
-              <div class="skills__card--img">
-                <img
-                  src="assets/images/skills/white-pentesting.svg"
-                  alt="Pentesting"
-                />
-              </div>
-              <div
-                class="skills__card--title"
-                data-section="skills"
-                data-value="card-title-2"
-              >
-                PENTESTING
-              </div>
+          <div class="project__card" style="--i: 2" data-aos="zoom-in">
+            <div class="project__card--image">
+              <img src="assets/images/projects/fruteriaAlura.png" alt="Alura Restaurant" />
             </div>
-
-            <div
-              class="skills__card"
-              style="--i: 3"
-              data-aos="flip-right"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000"
-            >
-              <div class="skills__card--img">
-                <img
-                  src="assets/images/skills/white-intelligence.svg"
-                  alt="Intelligence"
-                />
-              </div>
-              <div
-                class="skills__card--title"
-                data-section="skills"
-                data-value="card-title-3"
-              >
-                INTELLIGENCE
-              </div>
+            <div class="project__card--title">
+              <h4>Fruteria Alura</h4>
             </div>
-
-            <div
-              class="skills__card"
-              style="--i: 4"
-              data-aos="flip-right"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000"
-            >
-              <div class="skills__card--img">
-                <img src="assets/images/skills/white-nist.svg" alt="NIST" />
-              </div>
-              <div
-                class="skills__card--title"
-                data-section="skills"
-                data-value="card-title-4"
-              >
-                NIST
-              </div>
+            <div class="project__card--description">
+              <p>
+                Fruteria Alura is a project created on the Alura Platform
+                using atomic design methodology as a best practice.
+              </p>
             </div>
+            <div class="project__card--buttons">
+              <a href="https://ciscojuan.github.io/fruteriAlura/" target="_blank">
+                <button class="btn btn-project">
+                  <i class="bx bx-play-circle"></i></button></a>
 
-            <div
-              class="skills__card"
-              style="--i: 5"
-              data-aos="flip-left"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000"
-            >
-              <div class="skills__card--img">
-                <img
-                  src="assets/images/skills/white-angular.svg"
-                  alt="Angular"
-                />
-              </div>
-              <div
-                class="skills__card--title"
-                data-section="skills"
-                data-value="card-title-5"
-              >
-                Agular
-              </div>
+              <a href="https://github.com/ciscojuan/fruteriAlura" target="
+                ">
+                <button class="btn btn-project">
+                  <i class="bx bxl-github"></i></button></a>
             </div>
+          </div>
 
-            <div
-              class="skills__card"
-              style="--i: 6"
-              data-aos="flip-left"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000"
-            >
-              <div class="skills__card--img">
-                <img src="assets/images/skills/white-react.svg" alt="React" />
-              </div>
-              <div
-                class="skills__card--title"
-                data-section="skills"
-                data-value="card-title-6"
-              >
-                React
-              </div>
+          <div class="project__card" style="--i: 3" data-aos="zoom-in">
+            <div class="project__card--image">
+              <img src="assets/images/projects/marvel'sCharacters.JPG" alt="Alura Restaurant" />
             </div>
-
-            <div
-              class="skills__card"
-              style="--i: 7"
-              data-aos="flip-right"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000"
-            >
-              <div class="skills__card--img">
-                <img src="assets/images/skills/white-sass.svg" alt="Sass" />
-              </div>
-              <div
-                class="skills__card--title"
-                data-section="skills"
-                data-value="card-title-7"
-              >
-                Sass
-              </div>
+            <div class="project__card--title">
+              <h4>Marvel Characters</h4>
             </div>
+            <div class="project__card--description">
+              <p>
+                Marvel Characters shows the enemies of marvel comics. This
+                project was made in JavaScript, us Saas as technology.
+              </p>
+            </div>
+            <div class="project__card--buttons">
+              <a href="https://ciscojuan.github.io/marvel-characters/" target="_blank">
+                <button class="btn btn-project">
+                  <i class="bx bx-play-circle"></i></button></a>
 
-            <div
-              class="skills__card"
-              style="--i: 8"
-              data-aos="flip-right"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000"
-            >
-              <div class="skills__card--img">
-                <img src="assets/images/skills/white-git.svg" alt="Github" />
-              </div>
-              <div
-                class="skills__card--title"
-                data-section="skills"
-                data-value="card-title-8"
-              >
-                NIST
-              </div>
+              <a href="https://github.com/ciscojuan/marvel-characters" target="_blank
+                ">
+                <button class="btn btn-project">
+                  <i class="bx bxl-github"></i></button></a>
+            </div>
+          </div>
+
+          <div class="project__card" style="--i: 4" data-aos="zoom-in">
+            <div class="project__card--image">
+              <img src="assets/images/projects/fruteriaAlura.png" alt="Alura Restaurant" />
+            </div>
+            <div class="project__card--title">
+              <h4>Registro Profesores</h4>
+            </div>
+            <div class="project__card--description">
+              <p>
+                Registro Profesores was created in React, use css and box-icon
+                library .
+              </p>
+            </div>
+            <div class="project__card--buttons">
+              <a href="https://ciscojuan.github.io/fruteriAlura/" target="_blank">
+                <button class="btn btn-project">
+                  <i class="bx bx-play-circle"></i></button></a>
+
+              <a href="https://github.com/ciscojuan/registro-profesores" target="
+                ">
+                <button class="btn btn-project">
+                  <i class="bx bxl-github"></i></button></a>
+            </div>
+          </div>
+
+          <div class="project__card" style="--i: 5" data-aos="zoom-in">
+            <div class="project__card--image">
+              <img src="assets/images/projects/getPosts.png" alt="Alura Restaurant" />
+            </div>
+            <div class="project__card--title">
+              <h4>Routing</h4>
+            </div>
+            <div class="project__card--description">
+              <p>
+                Routing project uses React Router module to switch between
+                different pages dynamically. It shows a few post store in a
+                json file from a json server webService.
+              </p>
+            </div>
+            <div class="project__card--buttons">
+              <a href="https://ciscojuan.github.io/fruteriAlura/" target="_blank">
+                <button class="btn btn-project">
+                  <i class="bx bx-play-circle"></i></button></a>
+
+              <a href="https://github.com/ciscojuan/fruteriAlura" target="
+                ">
+                <button class="btn btn-project">
+                  <i class="bx bxl-github"></i></button></a>
+            </div>
+          </div>
+
+          <div class="project__card" style="--i: 6" data-aos="zoom-in">
+            <div class="project__card--image">
+              <img src="assets/images/projects/registraPagos.png" alt="Registra Pagos" />
+            </div>
+            <div class="project__card--title">
+              <h4>Registra Pagos</h4>
+            </div>
+            <div class="project__card--description">
+              <p>
+                A PHP application for tracking public service bills.
+              </p>
+            </div>
+            <div class="project__card--buttons">
+              <a href="https://ciscojuan.github.io/fruteriAlura/" target="_blank">
+                <button class="btn btn-project">
+                  <i class="bx bx-play-circle"></i></button></a>
+
+              <a href="https://github.com/ciscojuan/fruteriAlura" target="_blank">
+                <button class="btn btn-project">
+                  <i class="bx bxl-github"></i></button></a>
+            </div>
+          </div>
+
+          <div class="project__card" style="--i: 7" data-aos="zoom-in">
+            <div class="project__card--image">
+              <img src="assets/images/projects/fruteriaAlura.png" alt="Alura Restaurant" />
+            </div>
+            <div class="project__card--title">
+              <h4>AluraCommerce</h4>
+            </div>
+            <div class="project__card--description">
+              <p>
+                Fruteria Alura is a project created on the Alura Platform
+                using atomic design methodology as a best practice.
+              </p>
+            </div>
+            <div class="project__card--buttons">
+              <a href="https://ciscojuan.github.io/fruteriAlura/" target="_blank">
+                <button class="btn btn-project">
+                  <i class="bx bx-play-circle"></i></button></a>
+
+              <a href="https://github.com/ciscojuan/fruteriAlura" target="
+                ">
+                <button class="btn btn-project">
+                  <i class="bx bxl-github"></i></button></a>
+            </div>
+          </div>
+
+          <div class="project__card" style="--i: 8" data-aos="zoom-in">
+            <div class="project__card--image">
+              <img src="assets/images/projects/fruteriaAlura.png" alt="Alura Restaurant" />
+            </div>
+            <div class="project__card--title">
+              <h4>AluraCommerce</h4>
+            </div>
+            <div class="project__card--description">
+              <p>
+                Fruteria Alura is a project created on the Alura Platform
+                using atomic design methodology as a best practice.
+              </p>
+            </div>
+            <div class="project__card--buttons">
+              <a href="https://ciscojuan.github.io/fruteriAlura/" target="_blank">
+                <button class="btn btn-project">
+                  <i class="bx bx-play-circle"></i></button></a>
+
+              <a href="https://github.com/ciscojuan/fruteriAlura" target="
+                ">
+                <button class="btn btn-project">
+                  <i class="bx bxl-github"></i></button></a>
             </div>
           </div>
         </div>
-      </section>
-
-      <section id="projects" class="projects">
-        <div class="projects__container">
-          <div class="projects__container--title">
-            <span class="separator"></span>
-            <h2 class="h1">MY PROJECTS</h2>
-            <span class="separator"></span>
-          </div>
-
-          <div class="projects__container--content">
-            <div class="project__card" style="--i: 1" data-aos="zoom-in">
-              <div class="project__card--image">
-                <img
-                  src="assets/images/projects/aecommerce.PNG"
-                  alt="Alura Restaurant"
-                />
-              </div>
-              <div class="project__card--title"><h4>AluraCommerce</h4></div>
-              <div class="project__card--description">
-                <p>
-                  E-comerce is an electronic shop computer's assets. This
-                  project was made in JavaScript, use Sass as technology.
-                </p>
-              </div>
-              <div class="project__card--buttons">
-                <a
-                  href="https://juan-e-commerce.vercel.app/index.html"
-                  target="_blank"
-                >
-                  <button class="btn btn-project">
-                    <i class="bx bx-play-circle"></i></button
-                ></a>
-
-                <a
-                  href="https://github.com/ciscojuan/e-commerce"
-                  target="
-                "
-                >
-                  <button class="btn btn-project">
-                    <i class="bx bxl-github"></i></button
-                ></a>
-              </div>
-            </div>
-
-            <div class="project__card" style="--i: 2" data-aos="zoom-in">
-              <div class="project__card--image">
-                <img
-                  src="assets/images/projects/fruteriaAlura.png"
-                  alt="Alura Restaurant"
-                />
-              </div>
-              <div class="project__card--title"><h4>Fruteria Alura</h4></div>
-              <div class="project__card--description">
-                <p>
-                  Fruteria Alura is a project created on the Alura Platform
-                  using atomic design methodology as a best practice.
-                </p>
-              </div>
-              <div class="project__card--buttons">
-                <a
-                  href="https://ciscojuan.github.io/fruteriAlura/"
-                  target="_blank"
-                >
-                  <button class="btn btn-project">
-                    <i class="bx bx-play-circle"></i></button
-                ></a>
-
-                <a
-                  href="https://github.com/ciscojuan/fruteriAlura"
-                  target="
-                "
-                >
-                  <button class="btn btn-project">
-                    <i class="bx bxl-github"></i></button
-                ></a>
-              </div>
-            </div>
-
-            <div class="project__card" style="--i: 3" data-aos="zoom-in">
-              <div class="project__card--image">
-                <img
-                  src="assets/images/projects/marvel'sCharacters.JPG"
-                  alt="Alura Restaurant"
-                />
-              </div>
-              <div class="project__card--title"><h4>Marvel Characters</h4></div>
-              <div class="project__card--description">
-                <p>
-                  Marvel Characters shows the enemies of marvel comics. This
-                  project was made in JavaScript, us Saas as technology.
-                </p>
-              </div>
-              <div class="project__card--buttons">
-                <a
-                  href="https://ciscojuan.github.io/marvel-characters/"
-                  target="_blank"
-                >
-                  <button class="btn btn-project">
-                    <i class="bx bx-play-circle"></i></button
-                ></a>
-
-                <a
-                  href="https://github.com/ciscojuan/marvel-characters"
-                  target="_blank
-                "
-                >
-                  <button class="btn btn-project">
-                    <i class="bx bxl-github"></i></button
-                ></a>
-              </div>
-            </div>
-
-            <div class="project__card" style="--i: 4" data-aos="zoom-in">
-              <div class="project__card--image">
-                <img
-                  src="assets/images/projects/fruteriaAlura.png"
-                  alt="Alura Restaurant"
-                />
-              </div>
-              <div class="project__card--title">
-                <h4>Registro Profesores</h4>
-              </div>
-              <div class="project__card--description">
-                <p>
-                  Registro Profesores was created in React, use css and box-icon
-                  library .
-                </p>
-              </div>
-              <div class="project__card--buttons">
-                <a
-                  href="https://ciscojuan.github.io/fruteriAlura/"
-                  target="_blank"
-                >
-                  <button class="btn btn-project">
-                    <i class="bx bx-play-circle"></i></button
-                ></a>
-
-                <a
-                  href="https://github.com/ciscojuan/registro-profesores"
-                  target="
-                "
-                >
-                  <button class="btn btn-project">
-                    <i class="bx bxl-github"></i></button
-                ></a>
-              </div>
-            </div>
-
-            <div class="project__card" style="--i: 5" data-aos="zoom-in">
-              <div class="project__card--image">
-                <img
-                  src="assets/images/projects/getPosts.png"
-                  alt="Alura Restaurant"
-                />
-              </div>
-              <div class="project__card--title"><h4>Routing</h4></div>
-              <div class="project__card--description">
-                <p>
-                  Routing project uses React Router module to switch between
-                  different pages dynamically. It shows a few post store in a
-                  json file from a json server webService.
-                </p>
-              </div>
-              <div class="project__card--buttons">
-                <a
-                  href="https://ciscojuan.github.io/fruteriAlura/"
-                  target="_blank"
-                >
-                  <button class="btn btn-project">
-                    <i class="bx bx-play-circle"></i></button
-                ></a>
-
-                <a
-                  href="https://github.com/ciscojuan/fruteriAlura"
-                  target="
-                "
-                >
-                  <button class="btn btn-project">
-                    <i class="bx bxl-github"></i></button
-                ></a>
-              </div>
-            </div>
-
-            <div class="project__card" style="--i: 6" data-aos="zoom-in">
-              <div class="project__card--image">
-                <img
-                  src="assets/images/projects/registraPagos.png"
-                  alt="Alura Restaurant"
-                />
-              </div>
-              <div class="project__card--title"><h4>Registra Pagos</h4></div>
-              <div class="project__card--description">
-                <p>
-                  A PHP application for tracking public service bills.
-                </p>
-              </div>
-              <div class="project__card--buttons">
-                <a
-                  href="https://ciscojuan.github.io/fruteriAlura/"
-                  target="_blank"
-                >
-                  <button class="btn btn-project">
-                    <i class="bx bx-play-circle"></i></button
-                ></a>
-
-                <a
-                  href="https://github.com/ciscojuan/fruteriAlura"
-                  target="_blank"
-                >
-                  <button class="btn btn-project">
-                    <i class="bx bxl-github"></i></button
-                ></a>
-              </div>
-            </div>
-
-            <div class="project__card" style="--i: 7" data-aos="zoom-in">
-              <div class="project__card--image">
-                <img
-                  src="assets/images/projects/fruteriaAlura.png"
-                  alt="Alura Restaurant"
-                />
-              </div>
-              <div class="project__card--title"><h4>AluraCommerce</h4></div>
-              <div class="project__card--description">
-                <p>
-                  Fruteria Alura is a project created on the Alura Platform
-                  using atomic design methodology as a best practice.
-                </p>
-              </div>
-              <div class="project__card--buttons">
-                <a
-                  href="https://ciscojuan.github.io/fruteriAlura/"
-                  target="_blank"
-                >
-                  <button class="btn btn-project">
-                    <i class="bx bx-play-circle"></i></button
-                ></a>
-
-                <a
-                  href="https://github.com/ciscojuan/fruteriAlura"
-                  target="
-                "
-                >
-                  <button class="btn btn-project">
-                    <i class="bx bxl-github"></i></button
-                ></a>
-              </div>
-            </div>
-
-            <div class="project__card" style="--i: 8" data-aos="zoom-in">
-              <div class="project__card--image">
-                <img
-                  src="assets/images/projects/fruteriaAlura.png"
-                  alt="Alura Restaurant"
-                />
-              </div>
-              <div class="project__card--title"><h4>AluraCommerce</h4></div>
-              <div class="project__card--description">
-                <p>
-                  Fruteria Alura is a project created on the Alura Platform
-                  using atomic design methodology as a best practice.
-                </p>
-              </div>
-              <div class="project__card--buttons">
-                <a
-                  href="https://ciscojuan.github.io/fruteriAlura/"
-                  target="_blank"
-                >
-                  <button class="btn btn-project">
-                    <i class="bx bx-play-circle"></i></button
-                ></a>
-
-                <a
-                  href="https://github.com/ciscojuan/fruteriAlura"
-                  target="
-                "
-                >
-                  <button class="btn btn-project">
-                    <i class="bx bxl-github"></i></button
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="training" class="training">
-        <div class="training__container">
-          <div class="training__container--title">
-            <div class="separator"></div>
-            <h3 class="h1" data-section="training" data-value="title">
-              TRAINING
-            </h3>
-            <div class="separator"></div>
-          </div>
-          <div class="training__container--content">
-            <div class="training__card" data-aos="fade-down">
-              <div class="training--image">
-                <img
-                  src="assets/images/training/uniminuto-color.png"
-                  alt="Systems Engeenering"
-                />
-              </div>
-              <div
-                class="training--title"
-                data-section="training"
-                data-value="training-title-1"
-              >
-                <p>Systems Engineer</p>
-              </div>
-              <div class="training--desc">
-                <p data-section="training" data-value="p-1">
-                  UNIMINUTO UNIVERSITY
-                </p>
-                <p data-section="training" data-value="p-2">2019</p>
-              </div>
-            </div>
-
-            <div class="training__card" data-aos="fade-up">
-              <div class="training--image">
-                <img
-                  src="assets/images/training/uniminuto-color.png"
-                  alt="Systems Engeenering"
-                />
-              </div>
-              <div
-                class="training--title"
-                data-section="training"
-                data-value="training-title-2"
-              >
-                <p>Computer Networks and Informatic Security</p>
-              </div>
-              <div class="training--desc">
-                <p data-section="training" data-value="p-3">
-                  UNIMINUTO UNIVERSITY
-                </p>
-                <p data-section="training" data-value="p-4">2013</p>
-              </div>
-            </div>
-
-            <div class="training__card" data-aos="fade-up">
-              <div class="training--image">
-                <img
-                  src="assets/images/training/OracleNextEducation.png"
-                  alt="Systems Engeenering"
-                />
-              </div>
-              <div
-                class="training--title"
-                data-section="training"
-                data-value="training-title-3"
-              >
-                <p>Front End Development</p>
-              </div>
-              <div class="training--desc">
-                <p data-section="training" data-value="p-5">
-                  ORACLE - ALURA LATAM
-                </p>
-                <p data-section="training" data-value="p-6">2023</p>
-              </div>
-            </div>
-
-            <div class="training__card" data-aos="fade-down">
-              <div class="training--image">
-                <img
-                  src="assets/images/training/platzi.webp"
-                  alt="Systems Engeenering"
-                />
-              </div>
-              <div
-                class="training--title"
-                data-section="training"
-                data-value="training-title-4"
-              >
-                <p>Informatic Security</p>
-              </div>
-              <div class="training--desc">
-                <p data-section="training" data-value="p-7">PLATZI</p>
-                <p data-section="training" data-value="p-8">2023</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="contact" class="contact">
-        <div class="contact__container">
-          <div class="contact__container--title">
-            <div class="separator"></div>
-            <h3 class="h1" data-section="contact" data-value="title">
-              GET IN TOUCH
-            </h3>
-            <div class="separator"></div>
-          </div>
-          <div class="contact__container--content">
-            <p data-section="contact" data-value="p">
-              Please fill this form to get in touch. I'll will give you a quick
-              response!
-            </p>
-            <form class="contact__form">
-              <div class="personal-info">
-                <input
-                  class="contact__form--input input-p"
-                  type="text"
-                  name="name"
-                  id="name"
-                  placeholder="Name"
-                  data-name
-                />
-                <input
-                  class="contact__form--input input-p"
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="Email"
-                  data-email
-                />
-              </div>
-
-              <input
-                class="contact__form--input"
-                type="text"
-                name="subject"
-                id="subject"
-                placeholder="Subject"
-                data-subject
-              />
-              <textarea
-                class="contact__form--input"
-                name="message"
-                id="message"
-                cols="20"
-                rows="20"
-                placeholder="Message"
-              ></textarea>
-              <input class="btn contact--btn" type="submit" value="Send" />
-            </form>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="footer__container">
-        <div class="brand"></div>
-        <p>Juan Ramirez | Ingeniero de Sistemas</p>
       </div>
-    </footer>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-    <!-- AOS Animations -->
-    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    </section>
 
-    <script src="assets/js/particles.js"></script>
+    <section id="training" class="training">
+      <div class="training__container">
+        <div class="training__container--title">
+          <div class="separator"></div>
+          <h3 class="h1" data-section="training" data-value="title">
+            TRAINING
+          </h3>
+          <div class="separator"></div>
+        </div>
+        <div class="training__container--content">
+          <div class="training__card" data-aos="fade-down">
+            <div class="training--image">
+              <img src="assets/images/training/uniminuto-color.png" alt="Systems Engeenering" />
+            </div>
+            <div class="training--title" data-section="training" data-value="training-title-1">
+              <p>Systems Engineer</p>
+            </div>
+            <div class="training--desc">
+              <p data-section="training" data-value="p-1">
+                UNIMINUTO UNIVERSITY
+              </p>
+              <p data-section="training" data-value="p-2">2019</p>
+            </div>
+          </div>
 
-    <script src="assets/js/app.js"></script>
-    <!--  -->
-    <script src="assets/js/index.js"></script>
-  </body>
+          <div class="training__card" data-aos="fade-up">
+            <div class="training--image">
+              <img src="assets/images/training/uniminuto-color.png" alt="Systems Engeenering" />
+            </div>
+            <div class="training--title" data-section="training" data-value="training-title-2">
+              <p>Computer Networks and Informatic Security</p>
+            </div>
+            <div class="training--desc">
+              <p data-section="training" data-value="p-3">
+                UNIMINUTO UNIVERSITY
+              </p>
+              <p data-section="training" data-value="p-4">2013</p>
+            </div>
+          </div>
+
+          <div class="training__card" data-aos="fade-up">
+            <div class="training--image">
+              <img src="assets/images/training/OracleNextEducation.png" alt="Systems Engeenering" />
+            </div>
+            <div class="training--title" data-section="training" data-value="training-title-3">
+              <p>Front End Development</p>
+            </div>
+            <div class="training--desc">
+              <p data-section="training" data-value="p-5">
+                ORACLE - ALURA LATAM
+              </p>
+              <p data-section="training" data-value="p-6">2023</p>
+            </div>
+          </div>
+
+          <div class="training__card" data-aos="fade-down">
+            <div class="training--image">
+              <img src="assets/images/training/platzi.webp" alt="Systems Engeenering" />
+            </div>
+            <div class="training--title" data-section="training" data-value="training-title-4">
+              <p>Informatic Security</p>
+            </div>
+            <div class="training--desc">
+              <p data-section="training" data-value="p-7">PLATZI</p>
+              <p data-section="training" data-value="p-8">2023</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="contact__container">
+        <div class="contact__container--title">
+          <div class="separator"></div>
+          <h3 class="h1" data-section="contact" data-value="title">
+            GET IN TOUCH
+          </h3>
+          <div class="separator"></div>
+        </div>
+        <div class="contact__container--content">
+          <p data-section="contact" data-value="p">
+            Please fill this form to get in touch. I'll will give you a quick
+            response!
+          </p>
+          <form class="contact__form">
+            <div class="personal-info">
+              <input class="contact__form--input input-p" type="text" name="name" id="name" placeholder="Name"
+                data-name />
+              <input class="contact__form--input input-p" type="email" name="email" id="email" placeholder="Email"
+                data-email />
+            </div>
+
+            <input class="contact__form--input" type="text" name="subject" id="subject" placeholder="Subject"
+              data-subject />
+            <textarea class="contact__form--input" name="message" id="message" cols="20" rows="20"
+              placeholder="Message"></textarea>
+            <input class="btn contact--btn" type="submit" value="Send" />
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="brand"></div>
+      <p>Juan Ramirez | Ingeniero de Sistemas</p>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- AOS Animations -->
+  <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+
+  <script src="assets/js/particles.js"></script>
+
+  <script src="assets/js/app.js"></script>
+  <!--  -->
+  <script src="assets/js/index.js"></script>
+</body>
+
 </html>
